@@ -1,0 +1,181 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/*common end*/
+
+/*header start*/
+header{
+	padding: 10px 0;
+	border-bottom: 2px solid #eef0f3;
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 40%;
+	float: right;
+}
+.menu ul{
+	float: right;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0 15px;
+	display: inline-block;
+	font-size: 18px;
+	color: #0f2656;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.menu ul li a:hover{
+	color: #008aff;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	padding: 50px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 60%;
+}
+.b_content{
+	text-align: center;
+}
+.b_content h1{
+	margin: 0 150px;
+	font-size: 40px;
+	color: #0f2656;
+	line-height: 50px;
+}
+.b_content h1 span{
+	color: #008aff
+}
+.b_content p{
+	margin: 20px 25px;
+	font-size: 18px;
+	color: #0f2656;
+	line-height: 25px;
+}
+.b_img{
+	margin: 0 auto;
+	width: 70%;
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+
+/*success start*/
+.success{
+	padding: 50px 0;
+}
+.s_content{
+	overflow: hidden;
+}
+.s_left{
+	width: 40%;
+	padding: 10px 20px;
+	float: left;
+	text-align: right;
+}
+.s_left h2{
+	margin: 0 auto;
+	font-size: 50px;
+	color: #f15767;
+}
+.s_left p{
+	margin: 0 auto;
+	font-size: 24px;
+	color: #0f2656;
+}
+.s_right{
+	width: 50%;
+	padding: 10px;
+	float: right;
+}
+.s_right h1{
+	margin: 0 auto;
+	font-size: 55px;
+	color: #0f2656;
+	line-height: 60px;
+}
+/*success end*/
+
+/*creativity start*/
+.creativity{
+	padding: 50px 0;
+}
+.c_content{
+	overflow: hidden;
+}
+.color1{
+	background-color: #fdebed;
+}
+.color2{
+	background-color: #ebf9f4;
+}
+.color3{
+	background-color: #fff7e8;
+}
+.c_single{
+	margin-right: 3%;
+	width: 27.33%;
+	padding: 0px 2% 50px;
+	float: left;
+}
+.c_single:last-child{
+	margin-right: 0;
+}
+.c_img{}
+.c_img img{
+	width: 100%;
+}
+.c_single h2{
+	margin-top: 5px;
+	color: #0f2656;
+}
+.c_single p{
+	font-size: 18px;
+	color: #0f2656;
+	line-height: 30px;
+}
+/*creativity end*/
+
+/*footer start*/
+footer{
+	padding: 20px;
+	background-color: #008aff;
+}
+.container3{
+	text-align: center;
+}
+.container3 p{
+	color: #85d2ff;
+}
+.container3 p span{
+	font-weight: 800;
+	color: white;
+	letter-spacing: 3px;
+}
+/*footer end*/
